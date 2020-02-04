@@ -1,3 +1,4 @@
+//Andrew Harrah
 $('textarea').keyup(function() {
 					if ($(this).val().toLowerCase().indexOf('vegan') != -1) {
 						$("body").append("<h3>WARNING: Cheesecake contains dairy</h3>")
